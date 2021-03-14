@@ -1,0 +1,244 @@
+@media screen and (min-width: 768px){
+    html{
+        /*background-color: #323241;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+
+    }
+}
+
+
+/*TEXT*/
+html{
+    /*background-color: #323241;*/
+    background-color: #E5E5E5;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+h1{
+    /*color: white;*/
+    color: #AD0404;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+h2{
+    margin: 20px;
+    /*color: white;*/
+    color:#AD0404;
+    font-size: 30px;
+}
+h3{
+    margin: 25px;
+    /*color: white;*/
+    color:#CA0000;
+    font-size: 25px;
+}
+h4{
+    margin: 30px;
+    /*color: white;*/
+    color: #CA0000;
+    font-size: 20px;
+}
+p{
+    margin: 20px;
+    /*color: white;*/
+    
+}
+.link{
+    color: #CA0000;
+    margin: 20px;
+    font-size: 20px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+
+/*ABOUT*/
+.about{
+    /*background-color:#44485B;*/
+    background-color: #D8D8D8;
+    border: solid #C65252 2px;
+    margin: 20px; /*décalage par rapport à la page entière*/
+    padding: 10px;  /*décalage dans la boîte*/
+    box-sizing: content-box;
+    border-radius: 10px;
+    display: flex;
+}
+.about .pp{
+    max-width: 150px; /*la taille maximum du container de l'image*/
+    flex: 0 0 150;
+}
+.about .pp img{
+    width: 100%;
+    border-radius: 100%; /*arrondi mon image*/
+    top: 50%;
+}
+
+
+/*SKILLS*/
+.skills{
+    /*background-color:#44485B;*/
+    background-color: #D8D8D8;
+    border: solid #C65252 2px;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+
+/*CV*/
+.projects{
+    /*background-color:#44485B;*/
+    background-color: #D8D8D8;
+    border: solid #C65252 2px;
+    margin: 20px; /*décalage par rapport à la page entière*/
+    padding: 10px;  /*décalage dans la boîte*/
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+/*.projects .projects-container{
+    text-align: center;
+}*/
+.projects .projects-container .project-image{
+    max-width: 300px; /*la taille maximum du container de l'image*/
+    max-height: 150px;
+
+    margin-left: 30px; /*la marge de décalage à gauche et à droite des images*/
+    margin-right: 30px;
+    margin-top: 20px;
+
+    display: inline-block;
+    justify-items: center;
+    row-gap: 10px;
+}
+.projects .projects-container .project-image .image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /*arrondi mon image*/
+}
+.projects .projects-container .project-image .title{
+    color: #CA0000;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*CV*/
+.cv{
+    /*background-color:#44485B;*/
+    background-color: #D8D8D8;
+    border: solid #C65252 2px;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    
+}
+/*
+.cv-button-container{
+    justify-items: center;
+    text-align: center;
+}*/
+.cv .cv-button{
+    background-color: #C65252;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: solid #520505 2px;
+    transition-duration: 0.2s;
+}
+.cv .cv-button:hover{
+    background-color: #ac4747;
+    border: solid #520505 2px;
+}
+.cv .cv-button:focus{
+    outline: none;
+}
+
+
+
+/*CONTACT*/
+.contact{
+    /*background-color:#44485B;*/
+    background-color: #D8D8D8;
+    border: solid #C65252 2px;
+    margin: 20px; /*décalage par rapport à la page entière*/
+    padding: 10px;  /*décalage dans la boîte*/
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+.contact-info{
+    margin-bottom: 10px;
+}
+.contact-text{
+    display: block;
+    padding-left: 1rem;    
+}
+.contact .contact-button{
+    background-color: #C65252;
+    color: white;
+    font-size: 20px;
+    padding: 12px 40px;
+    border-radius: 10px;
+    border: solid #520505 2px;
+    transition-duration: 0.2s;
+}
+.contact .contact-button:hover{
+    background-color: #ac4747;
+    border: solid #520505 2px;
+}
+.contact-container{
+    display:inline-flex;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.contact .contact-info-content{
+    width: 50%;
+    float: left;
+}
+.contact .contact-social-network{
+    width: 50%;
+    float: right;
+}
+.contact .contact-icon{
+    color: #C65252;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+footer{
+
+    background-color: #C65252;
+    color: #fff;
+    text-align: center;
+    
+    width: 100%;    
+}
+.footer-title{
+    font-size: 40px;
+    font-weight: bold;
+}
