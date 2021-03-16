@@ -2154,6 +2154,8 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+
+  scroll-behavior: smooth;
 }
 
 /* Sections
@@ -9118,4 +9120,3 @@ input[type=range]::-ms-thumb {
 .my-link{
   font-size: 20px;
 }
-
