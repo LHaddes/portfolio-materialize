@@ -9087,15 +9087,23 @@ input[type=range]::-ms-thumb {
 }
 
 /*My own CSS*/
-.pp{
-  max-width: 300px;
-}
+
+
 
 .box{
   background-color: #D8D8D8;
   border: solid #C65252 2px;
   padding: 5px;
   border-radius: 10px;
+}
+
+.home{
+  text-align: center;
+}
+
+.home img{
+  max-width: 200px;
+  
 }
 
 
