@@ -9106,6 +9106,11 @@ input[type=range]::-ms-thumb {
   
 }
 
+.my-red{
+  color: #C65252;
+  background-color: #C65252;
+}
+
 
 
 .contact-icon{
