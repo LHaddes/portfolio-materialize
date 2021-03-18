@@ -2595,7 +2595,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, Nunito, sans-serif;
 }
 
 ul:not(.browser-default) {
@@ -9111,7 +9111,10 @@ input[type=range]::-ms-thumb {
   background-color: #C65252;
 }
 
-
+.skills-icon{
+  
+    font-size: 50px;
+}
 
 .contact-icon{
   color: #C65252;
