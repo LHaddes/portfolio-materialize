@@ -9102,6 +9102,15 @@ input[type=range]::-ms-thumb {
   
 }
 
+.project-img{
+  transition: transform .15s; /* Animation */
+  transform-origin: center center;
+}
+
+.project-img:hover{
+  transform: scale(1.1);
+}
+
 .my-red{
   color: #C65252;
   background-color: #C65252;
