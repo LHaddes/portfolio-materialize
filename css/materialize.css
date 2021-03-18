@@ -5246,11 +5246,6 @@ small {
   line-height: inherit;
 }
 
-.btn:focus, .btn-large:focus, .btn-small:focus,
-.btn-floating:focus {
-  background-color: #e53935;
-}
-
 .btn, .btn-large, .btn-small {
   text-decoration: none;
   color: #fff;
@@ -5291,6 +5286,7 @@ small {
 .btn-floating:before {
   border-radius: 0;
 }
+
 
 .btn-floating.btn-large {
   width: 56px;
