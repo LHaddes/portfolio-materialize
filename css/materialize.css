@@ -2681,9 +2681,9 @@ a {
 }
 
 .divider {
-  height: 1px;
+  height: 1.5px;
   overflow: hidden;
-  background-color: #e0e0e0;
+  background-color: #C65252;
 }
 
 blockquote {
@@ -9092,6 +9092,8 @@ input[type=range]::-ms-thumb {
   padding: 5px;
   border-radius: 10px;
 }
+
+
 
 .home{
   text-align: center;
