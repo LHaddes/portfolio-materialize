@@ -2681,9 +2681,9 @@ a {
 }
 
 .divider {
-  height: 1.5px;
+  height: 1px;
   overflow: hidden;
-  background-color: #C65252;
+  background-color: #e0e0e0;
 }
 
 blockquote {
@@ -9087,13 +9087,11 @@ input[type=range]::-ms-thumb {
 
 
 .box{
-  background-color: #D8D8D8;
-  border: solid #C65252 2px;
+  background-color: #e9e9e9;
+  /*border: solid #C65252 2px;*/
   padding: 5px;
   border-radius: 10px;
 }
-
-
 
 .home{
   text-align: center;
@@ -9110,7 +9108,7 @@ input[type=range]::-ms-thumb {
 }
 
 .project-img:hover{
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .my-red{
